@@ -1,0 +1,21 @@
+[
+  {
+    "auditHeader": null,
+    "proposedSnapshot": {
+      "com.linkedin.pegasus2avro.metadata.snapshot.DataPlatformSnapshot": {
+        "urn": "urn:li:dataPlatform:MyCustomDataPlatform",
+        "aspects": [
+          {
+            "com.linkedin.pegasus2avro.dataplatform.DataPlatformInfo": {
+              "datasetNameDelimiter": "/",
+              "name": "My Custom Data Platform",
+              "type": "OTHERS",
+              "logoUrl": "https://s.cafebazaar.ir/images/icons/com.Creative.Design.Your.Own.Logo.App-222edb29-a6c1-46c8-b3d2-4ce1170a56b6_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize"
+            }
+          }
+        ]
+      }
+    },
+    "proposedDelta": null
+  }
+]
