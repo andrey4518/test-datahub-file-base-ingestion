@@ -272,5 +272,33 @@
       }
     },
     "proposedDelta": null
+  },
+  {
+    "auditHeader": null,
+    "proposedSnapshot": {
+      "com.linkedin.pegasus2avro.metadata.snapshot.DatasetSnapshot": {
+        "urn": "urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform,api_usage_analytics,DEV)",
+        "aspects": [
+          {
+            "com.linkedin.pegasus2avro.dataset.UpstreamLineage": {
+              "upstreams": [
+                {
+                  "dataset": "urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform,SampleCustomProducedDataset,DEV)",
+                  "type": "TRANSFORMED"
+                }
+              ],
+              "fineGrainedLineages": [{
+                "upstreamType": "FIELD_SET",
+                "upstreams": ["urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform,SampleCustomProducedDataset,DEV),field_foo)"],
+                "downstreamType": "FIELD",
+                "downstreams": ["urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform,api_usage_analytics,DEV),client)"],
+                "confidenceScore": 1.0
+              }]
+            }
+          }
+        ]
+      }
+    },
+    "proposedDelta": null
   }
 ]
