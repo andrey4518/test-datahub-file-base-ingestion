@@ -291,7 +291,7 @@
                 "upstreamType": "FIELD_SET",
                 "upstreams": ["urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform,SampleCustomProducedDataset,DEV),field_foo)"],
                 "downstreamType": "FIELD",
-                "downstreams": ["urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:clickhouse,api_usage_analytics,DEV),client)"],
+                "downstreams": ["urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:clickhouse,clickhouse_main.analysis.api_usage_analytics,DEV),client)"],
                 "confidenceScore": 1.0
               }]
             }
