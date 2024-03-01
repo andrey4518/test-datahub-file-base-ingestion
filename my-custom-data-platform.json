@@ -176,7 +176,14 @@
                   "dataset": "urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform,SampleCustomDataset,DEV)",
                   "type": "TRANSFORMED"
                 }
-              ]
+              ],
+              "fineGrainedLineages": [{
+                "upstreamType": "FIELD_SET",
+                "upstreams": ["urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform,SampleCustomDataset,DEV),field_foo)"],
+                "downstreamType": "FIELD",
+                "downstreams": ["urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform,SampleCustomProducedDataset,DEV),field_foo)"],
+                "confidenceScore": 1.0
+              }]
             }
           },
           {
