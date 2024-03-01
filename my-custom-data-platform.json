@@ -277,7 +277,7 @@
     "auditHeader": null,
     "proposedSnapshot": {
       "com.linkedin.pegasus2avro.metadata.snapshot.DatasetSnapshot": {
-        "urn": "urn:li:dataset:(urn:li:dataPlatform:clickhouse,api_usage_analytics,DEV)",
+        "urn": "urn:li:dataset:(urn:li:dataPlatform:clickhouse,clickhouse_main.analysis.api_usage_analytics,DEV)",
         "aspects": [
           {
             "com.linkedin.pegasus2avro.dataset.UpstreamLineage": {
